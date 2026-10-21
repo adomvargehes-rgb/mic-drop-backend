@@ -1,0 +1,17 @@
+{
+  "name": "music-downloader-backend",
+  "version": "1.0.0",
+  "description": "YouTube-to-Audio Backend Microservice powered by yt-dlp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true,
+  "dependencies": {
+    "nodemailer": "^10.1.6",
+    "st-shazam": "^1.1.1"
+  }
+}
